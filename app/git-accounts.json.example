@@ -1,0 +1,20 @@
+{
+  "personal": {
+    "name": "your-github-username",
+    "email": "your-email@example.com",
+    "ssh_host": "github-personal",
+    "ssh_key": "~/.ssh/id_rsa_personal"
+  },
+  "work": {
+    "name": "work-username",
+    "email": "work-email@company.com",
+    "ssh_host": "github-work",
+    "ssh_key": "~/.ssh/id_rsa_work"
+  },
+  "freelance": {
+    "name": "freelance-username",
+    "email": "freelance@business.com",
+    "ssh_host": "github-freelance",
+    "ssh_key": "~/.ssh/id_rsa_freelance"
+  }
+}
