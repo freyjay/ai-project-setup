@@ -260,6 +260,24 @@ python3 --version
 - Advanced customization
 - Tips and best practices
 
+## 🔗 Complementary Tools
+
+This project is part of a **dual-tool development ecosystem**:
+
+**🛠️ Complementary Project:** [git-setup-toolkit](https://github.com/freyjay/git-setup-toolkit)
+
+| Tool | Primary Use | Reliability | Speed | Recovery |
+|------|------------|-------------|-------|----------|
+| **ai-project-setup** | GUI automation, full templates | High (GUI-based) | Medium | Not designed for |
+| **git-setup-toolkit** | CLI fallback, core git setup | ~100% (hybrid approach) | Fast | Excellent |
+
+**When to Use Each:**
+- **ai-project-setup** - Primary choice for comprehensive new projects with full templates and AI workflow integration
+- **git-setup-toolkit** - Manual setup, quick prototypes, or when ai-project-setup isn't available
+- **Recovery scenarios** - Use git-setup-toolkit to fix broken project configurations
+
+Both tools create **identical git configurations** and work seamlessly together in your development workflow.
+
 ## 🔮 Roadmap (v2 Features)
 
 - 🎨 **Enhanced UI** - Modern interface with dark mode
